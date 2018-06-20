@@ -20,7 +20,10 @@ public class Employee {
 	public String getName() {
 		return name;
 	}
-
+	
+	public void doSomething() {
+		System.out.println("Hello Employee!");
+	}
 	/*@Override
 	public String toString() {
 		return "This is some custom Employee [id=" + id + ", name=" + name + ", age=" + age + ", city=" + city + "]";
